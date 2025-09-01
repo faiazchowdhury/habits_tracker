@@ -1,7 +1,7 @@
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
-import 'package:habits_tracker/Screens/Authentication/Home/createhabit.dart';
-import 'package:habits_tracker/Screens/Authentication/Home/home.dart';
+import 'package:habits_tracker/Screens/Home/createhabit.dart';
+import 'package:habits_tracker/Screens/Home/home.dart';
 import 'package:habits_tracker/Screens/Authentication/Widgets/Textfield.dart';
 import 'package:habits_tracker/Screens/Authentication/bloc/authenticatebloc_bloc.dart';
 import 'package:habits_tracker/Screens/Authentication/registration.dart';

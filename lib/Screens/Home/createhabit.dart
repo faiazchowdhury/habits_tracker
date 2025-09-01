@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:habits_tracker/Screens/Authentication/Home/bloc/habit_bloc.dart';
+import 'package:habits_tracker/Screens/Home/bloc/habit_bloc.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class CreateHabit extends StatefulWidget {

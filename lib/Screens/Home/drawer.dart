@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:habits_tracker/Screens/Authentication/Home/TextIconButton.dart';
-import 'package:habits_tracker/Screens/Authentication/Home/home.dart';
+import 'package:habits_tracker/Screens/Home/TextIconButton.dart';
+import 'package:habits_tracker/Screens/Home/favorite.dart';
+import 'package:habits_tracker/Screens/Home/home.dart';
 import 'package:habits_tracker/Screens/Authentication/login.dart';
 import 'package:habits_tracker/Screens/Profile/profile.dart';
 import 'package:habits_tracker/main.dart';
@@ -38,11 +39,11 @@ class MyDrawer extends StatelessWidget {
                 TextIconButton(
                   onPressed: () => Navigator.of(context).pushReplacement(
                     MaterialPageRoute(
-                      builder: (_) => Login(),
+                      builder: (_) => Favorite(),
                     ),
                   ),
-                  icon: Icons.shopping_cart,
-                  label: 'My Cart',
+                  icon: Icons.favorite,
+                  label: 'Favorite Quotes',
                 ),
                 
                 TextIconButton(
